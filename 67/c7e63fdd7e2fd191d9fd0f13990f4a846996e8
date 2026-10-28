@@ -1,0 +1,19 @@
+registries/toolhive/servers/edusign/server.json
+  s_0be5bf20cb058b::t_26e8070a9b3cce 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "67c7e63fdd7e2fd191d9fd0f13990f4a846996e8",
+  "prompts": {},
+  "sessions": {
+    "s_0be5bf20cb058b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a184a4-e6f4-71c1-b67d-531a2f020fbd",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "DrMachiavel <36016658+DrMachiavel@users.noreply.github.com>"
+    }
+  }
+}
