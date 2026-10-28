@@ -1,0 +1,31 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.stacklok/edusign",
+  "title": "Edusign",
+  "description": "Edusign's official remote MCP server for attendance, learners, courses, documents, and API guidance",
+  "version": "1.0.0",
+  "websiteUrl": "https://developers.edusign.com/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.edusign.com"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "io.github.stacklok": {
+        "https://mcp.edusign.com": {
+          "tier": "Official",
+          "status": "Active",
+          "tags": ["remote", "edusign", "education", "attendance", "oauth", "api"],
+          "tools": ["set_during_runtime"],
+          "custom_metadata": {
+            "author": "Edusign",
+            "homepage": "https://developers.edusign.com/docs/mcp"
+          },
+          "overview": "Edusign provides a hosted Streamable HTTP MCP server for working with Edusign attendance, learners, courses, documents, and API guidance. Connect to https://mcp.edusign.com using OAuth 2.1; access follows each Edusign user's permissions. See https://developers.edusign.com/docs/mcp for setup and available capabilities."
+        }
+      }
+    }
+  }
+}
